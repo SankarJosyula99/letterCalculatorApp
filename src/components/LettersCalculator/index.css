@@ -1,0 +1,83 @@
+/* Write your code here. */
+/* Write your code here. */
+.main-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  font-family: 'Roboto';
+}
+.inner-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 400px;
+}
+.main-heading {
+  color: white;
+  font-size: 40px;
+}
+.para {
+  color: #e4e7eb;
+  font-size: 12px;
+}
+.input-element {
+  width: 250px;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  padding: 8px;
+  outline: none;
+  color: white;
+  font-size: 14px;
+  background-color: transparent;
+}
+.result-holder {
+  width: auto;
+  background-color: white;
+  border-radius: 8px;
+  height: 50px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.show-result {
+  color: #1d976c;
+  font-weight: bold;
+  font-size: 20px;
+}
+.image {
+  width: 500px;
+  height: 350px;
+}
+@media screen and (max-width: 768px) {
+  .content {
+    order: 1;
+    align-items: center;
+  }
+  .main-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .image {
+    order: 0;
+    width: 400px;
+    height: 220px;
+  }
+}
